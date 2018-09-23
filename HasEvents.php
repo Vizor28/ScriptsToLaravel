@@ -1,3 +1,8 @@
+<?php
+
+namespace App\Traits;
+
+
 trait HasEvents
 {
     protected static $events_to_observe = [
